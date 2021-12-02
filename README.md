@@ -4,7 +4,7 @@
 *Cílem je napsat program který stáhne soubor z daného URL, zparsuje data z XML a (některá) uloží do DB.
 *Aplikace má dvě tabulky - obec a část obce.
 *U obce stačí do DB vložit kód a název, u části obce kód, název a kód obce, ke které část obce patří
-*Program by měl tyto dvě tabulky naplnit (V tom XML by měla být jedna obec - element vf:Obec - a několik málo částí obce - vf:CastObce).
+-Program by měl tyto dvě tabulky naplnit (V tom XML by měla být jedna obec - element vf:Obec - a několik málo částí obce - vf:CastObce).
 *Program nemusí databázové schéma vytvářet, to stačí udělat ručně.
 *Na parsování použít nějaký standardní nástroj (nějakou knihovnu např. DOM, SAX, StAX, ...).
 *Není nutné při parsování získat všechna data, co jsou v XML, stačí z něj získat jen ta, která budeme dávat do DB.
